@@ -1,0 +1,22 @@
+package Kowsi;// getting input from user
+import java.util.Scanner; 
+public class helloword {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("enter your name : ");
+		String user_name= scanner.nextLine();
+		System.out.println("enter your age : ");
+		int user_age= scanner.nextInt();
+		System.out.println("enter your phone number : ");
+		long user_phone= scanner.nextLong();
+		scanner.nextLine();
+		System.out.println("enter your emai_id : ");
+		String user_mailid= scanner.nextLine();
+		System.out.println(user_name);
+		System.out.println(user_age);
+		System.out.println(user_mailid);
+		
+
+	}
+
+}
